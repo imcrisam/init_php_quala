@@ -28,7 +28,7 @@
 <body>
 
   <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
-    <a class="navbar-brand logo" href="../index.html"><img src="../img/logos/logoQuala-sinfondo3.png" alt="" srcset=""></a>
+    <a class="navbar-brand logo" href="../index.php"><img src="../img/logos/logoQuala-sinfondo3.png" alt="" srcset=""></a>
 
     <button class="navbar-toggler " style="background-color: #01539F; " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -38,7 +38,7 @@
       <ul class="navbar-nav ml-auto">
        
         <li class="nav-item active">
-          <a class="nav-link  btn btn-danger" href="../index.html">Desconectarse</a>
+          <a class="nav-link  btn btn-danger" href="../index.php">Desconectarse</a>
         </li>
       </ul>
 
