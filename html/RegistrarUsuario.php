@@ -118,7 +118,7 @@
                                 }
                             } else {
                                 echo "<div class='alert alert-danger' role='alert'>
-                                Contraseñas no son iguales
+                                Contraseñas no son iguales.
                               </div>";
                             }
                         }
