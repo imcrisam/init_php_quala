@@ -42,7 +42,7 @@
                         <h3>Registro De Nuevo Usuario</h3>
                     </center>
                 </div>
-                <form action="registrarUsuario.php" method="POST">
+                <form action="RegistrarUsuario.php" method="POST">
                     <div class="form-row">
                         <div class="form-group col-md-4">
                             <label for="Nombre">Identificacion</label>
