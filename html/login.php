@@ -86,7 +86,7 @@
               <div class="row justify-content-between">
                 <div class="col ">
                   
-                  <a  href="RegistrarUsuario.php" class="btn btn-info " >Registrar<a>
+                  <a  href="registrarUsuario.php" class="btn btn-info " >Registrar<a>
                 </div>
                 <div class="col ">
                   <button type="button" class="btn btn-dark " data-toggle="modal" data-target="#bd" data-whatever="@fat">BaseDatos</button>
