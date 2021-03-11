@@ -13,11 +13,11 @@ $bd = new usuarioBaseDatos();
 $usuario= $bd->usuario();
 $contraseña= $bd->contraseña();
 
-$conexion = mysqli_connect("localhost","$usuario" ,"$contraseña") or
+$conexion = mysqli_connect("remotemysql.com","OWPtHyXAIQ" ,"SR64WeqAZS") or
   die("Problemas con la conexión");
   mysqli_query($conexion, "CREATE DATABASE quala");
   mysqli_close($conexion);
-  $conexion = mysqli_connect("localhost","$usuario" ,"$contraseña","quala") or
+  $conexion = mysqli_connect("remotemysql.com","OWPtHyXAIQ" ,"SR64WeqAZS","OWPtHyXAIQ") or
   die("Problemas con la conexión");
 mysqli_query($conexion, "CREATE TABLE `clientes` (
     `ID` int(11) NOT NULL AUTO_INCREMENT,
