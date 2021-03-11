@@ -159,7 +159,7 @@
               }
               
               
-              $conexion = mysqli_connect("localhost", "$usuario", "$contraseña", "quala") or
+              $conexion = mysqli_connect("remotemysql.com","$usuario" ,"$contraseña","$usuario") or
               die("Problemas con la conexión");
               
 

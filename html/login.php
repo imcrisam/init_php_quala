@@ -173,7 +173,7 @@ include "../php/usuarioBaseDatos.php";
       $usuario= $bd->usuario();
       $contraseña= $bd->contraseña();
       
-      $conexion = mysqli_connect("localhost", "$usuario", "$contraseña", "quala") or
+      $conexion = mysqli_connect("remotemysql.com","$usuario" ,"$contraseña","$usuario") or
         die("Problemas con la conexión");
         $registros = mysqli_query( $conexion, "SELECT contrausu from usuarios WHERE usuario=".$_POST['Usuario']   )
         or die("Problemas en el select" . mysqli_error($conexion));
