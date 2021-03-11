@@ -131,7 +131,7 @@
               </div>
             </div>
           </div>
-          <a href="crud.php" class="btn btn btn-outline-danger float-right col-xl-1 col-md-2 col-7">Cancelar</a>
+          <a href="Crud.php" class="btn btn btn-outline-danger float-right col-xl-1 col-md-2 col-7">Cancelar</a>
 
 
 

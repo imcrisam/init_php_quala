@@ -27,7 +27,7 @@ $conexion = mysqli_connect("remotemysql.com","$usuario" ,"$contraseña","$usuari
   echo $registros;
   if ($reg = mysqli_fetch_array($registros)){
     if($reg['contrausu']==$_POST['Contraseña'] ){
-      header("location: crud.php");
+      header("location: Crud.php");
       echo "<div class='alert alert-danger' role='alert'>
       Contraseña Incorrecta
     </div>";

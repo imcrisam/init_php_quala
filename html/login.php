@@ -183,7 +183,7 @@ include "../php/usuarioBaseDatos.php";
             echo "<div class='alert alert-success' role='alert'>
             Correcto
           </div>";
-           echo ' <meta http-equiv="refresh" content="0; url=crud.php">';
+           echo ' <meta http-equiv="refresh" content="0; url=Crud.php">';
           
 
           }else{
