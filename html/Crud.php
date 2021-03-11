@@ -165,7 +165,7 @@
 
               if (isset($_POST['btnBuscar'])) {
                 $bg="badge-primary";
-                $registros = mysqli_query($conexion, "SELECT* FROM clientes WHERE " . $tipo . "= " . $consulta)
+                $registros = mysqli_query($conexion, "SELECT* FROM clientes WHERE " . $tipo . "= '" . $consulta."'")
                   or die("Problemas en el select" . mysqli_error($conexion));
                 if ($consulta == "") {
                   echo '<div class="alert alert-warning" role="alert">Digite Su Busqueda</div>';
