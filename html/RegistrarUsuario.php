@@ -94,7 +94,7 @@
                             $usuario = $bd->usuario();
                             $contraseña = $bd->contraseña();
 
-                            $conexion = mysqli_connect("localhost", "$usuario", "$contraseña", "$usuario") or
+                            $conexion = mysqli_connect("remotemysql.com", "$usuario", "$contraseña", "$usuario") or
                                 die("Problemas con la conexión");
 
                             if ($_POST['Contraseña'] == $_POST['conContraseña']) {
