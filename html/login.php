@@ -27,7 +27,7 @@
 <body>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-    <a class="navbar-brand" href="../index.html"><img src="../img/logos/logoQuala-sinfondo3.png" alt="" srcset=""></a>
+    <a class="navbar-brand" href="../index.php"><img src="../img/logos/logoQuala-sinfondo3.png" alt="" srcset=""></a>
     <button class="navbar-toggler " style="background-color: #01539F; " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -35,7 +35,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item ">
-          <a class="nav-link" href="../index.html">Quienes Somos </a>
+          <a class="nav-link" href="../index.php">Quienes Somos </a>
         </li>
         <li class="nav-item dropdown bg ">
           <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -86,7 +86,7 @@
               <div class="row justify-content-between">
                 <div class="col ">
                   
-                  <a  href="RegistrarUsuario" class="btn btn-info " >Registrar<a>
+                  <a  href="RegistrarUsuario.php" class="btn btn-info " >Registrar<a>
                 </div>
                 <div class="col ">
                   <button type="button" class="btn btn-dark " data-toggle="modal" data-target="#bd" data-whatever="@fat">BaseDatos</button>
@@ -99,7 +99,7 @@
           <div class="card-footer">
             <div class="row">
               <div class="col ">
-                <a href="../index.html" class=" btn btn-danger btn-block">Cerrar</a>
+                <a href="../index.php" class=" btn btn-danger btn-block">Cerrar</a>
               </div>
             </div>
           </div>
