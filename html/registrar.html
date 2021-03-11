@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Quala</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/general.css">
+
+
+
+  <link rel="shortcut icon" href="../img/iconos/quala.ico" type="image/x-icon">
+  <style>
+    @media screen and (max-width:576px) {
+      .container {
+        width: 100%;
+      }
+    }
+
+    .btn {
+      margin-top: 5px;
+
+    }
+  </style>
+</head>
+<style>
+   #main 
+        {
+            min-height: 80vh;
+        }
+</style>
+<body>
+
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
+    <a class="navbar-brand logo" href="../index.html"><img src="../img/logos/logoQuala-sinfondo3.png" alt="" srcset=""></a>
+
+    <button class="navbar-toggler " style="background-color: #01539F; " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse d-flex flex-row-reverse" id="navbarSupportedContent">
+      <ul class="navbar-nav ">
+      
+        <li class="nav-item active">
+          <a class="nav-link  btn btn-danger" href="../index.html">Desconectarse</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <div class="container" id='main'>
+    
+    <section class="contenedor-main row justify-content-around ">
+      <div class="card col-12 border-0 bg-light pb-3">
+        <div class="card-header badge-info mb-3">
+            <center>
+                <h3>Registro De Nuevo Cliente</h3>
+              </center>
+        </div>
+        <form action="../php/registro.php">
+          <div class="form-row">
+
+            <div class="form-group col-md-6">
+              <label for="NIT">NIT</label>
+              <input type="number" class="form-control" id="NIT" name="NIT" placeholder="NIT">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="Nombre">Nombre</label>
+              <input type="text" class="form-control" id="Nombre" name="Nombre"  placeholder="Nombre">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-8">
+              <label for="Email">Email</label>
+              <input type="email" class="form-control" id="Email" name="Email" placeholder="Email">
+            </div>
+            <div class="form-group col-md-4">
+              <label for="Telefono">Telefono</label>
+              <input type="number" class="form-control" id="Telefono" name="Telefono" placeholder="Telefono">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="Direccion">Direccion</label>
+              <input type="text" class="form-control" id="Direccion" name="Direccion" placeholder="Direccion">
+            </div>
+
+          </div>
+
+          <button type="submit" class="btn btn-outline-primary col-xl-2 col-md-4 col-12">Registrar</button>
+          <button type="reset" class="btn btn-outline-info col-xl-1 col-md-2 col-4">Limpiar</button>
+          <a href="crud.php" class="btn btn btn-outline-danger float-right col-xl-1 col-md-2 col-7">Cancelar</a>
+
+
+
+
+        </form>
+      </div>
+
+
+
+
+
+
+    </section>
+
+
+  </div>
+  <section class="row ">
+    <div class=" col-1 redes ">
+      <a href="#" target="_blank"><img src="../img/iconos/fb-icon.bn.png" alt="" id='ficon'></a><br>
+      <a href="#" target="_blank"><img src="../img/iconos/yt-icon-bn.png" alt="" id='yicon'></a><br>
+      <a href="#" target="_blank"><img src="../img/iconos/instagram-icon-bn.png" alt="" id='iicon'></a><br>
+      <a href="#" target="_blank"><img src="../img/iconos/in-icon.bn.png" alt="" id='incon'></a><br>
+
+    </div>
+  </section>
+
+
+  <footer class="row Sticky-bottom">
+    <div class="col">
+      <span>Copyright© 2019 - Página creada por AC|DC - Todos los derechos reservados</span>
+    </div>
+
+  </footer>
+
+
+
+  <script src="../js/jquery-3.4.0.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+</body>
+
+
+
+</html>

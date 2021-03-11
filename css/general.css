@@ -1,0 +1,117 @@
+.bgAzulQ {
+  background-color: 01539F;
+  color: 01539F;
+}
+
+.menu {
+
+  position: fixed;
+
+}
+.logo{
+width: 25%;
+
+}
+#main {
+  margin-top: 80px;
+  width: 90% !important;
+  min-height: 400px;
+}
+body {
+
+  background-color: #01539F !important;
+  background-image: url(../img/bg-trama-footer.png) !important;
+}
+
+
+.redes {
+
+  bottom: 15%;
+  position: fixed;
+
+
+}
+.Mitem{
+  font-size: 26px;
+  
+  
+  color: black;
+  opacity: 0.7;
+   
+}
+.Mitem:hover{
+  color: white;
+  background-color: #01539F;
+}
+.menu{
+  background-color: white;
+  border: whitesmoke;
+  
+}
+.activ{
+  opacity: 1 !important;
+}
+.ingresar{
+  color: white ;
+}
+
+.redes #ficon:hover {
+  transition: 1000ms;
+  opacity: 1;
+  content: url(../img/iconos/fb-icon.png);
+}
+
+
+.redes #yicon:hover {
+  transition: 1000ms;
+  opacity: 1;
+  content: url(../img/iconos/yt-icon.png);
+}
+
+.redes #iicon:hover {
+  transition: 1000ms;
+  opacity: 1;
+  content: url(../img/iconos/instagram-icon.png);
+}
+
+.redes #incon:hover {
+  transition: 1000ms;
+
+  opacity: 1;
+  content: url(../img/iconos/in-icon.png);
+}
+
+.redes img {
+
+  opacity: 0.7;
+  width: 30px;
+  position: relative;
+
+
+}
+
+footer {
+  padding: 8px;
+  background-color: gainsboro;
+  opacity: 0.7;
+  color: black;
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
+
+}
+
+.nav-item {
+  text-align: right;
+  font-size: 20px;
+
+
+}
+
+.conte {
+  margin-top: 1%;
+
+}
+p{
+  text-align: justify;
+}
